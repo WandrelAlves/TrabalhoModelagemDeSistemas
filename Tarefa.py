@@ -11,7 +11,7 @@ class Tarefa:
         self.id_Crianca = id_crianca
         self.id_Pais = id_pais
         self.concluida = False
-
+    
     def concluir(self):
         self.concluida = True
 
@@ -32,7 +32,7 @@ class GerenciadorTarefas:
             tarefa.concluir()
             print("Tarefa concluída com sucesso.")
         else:
-            print("Tarefa não encontrada.")
+            print("Tarefa não encontrada, tente novamente.")
 
     def visualizar_tarefas(self):
         print(" ")
@@ -44,7 +44,7 @@ class GerenciadorTarefas:
                 print(f"ID: {tarefa.id}, / Nome: {tarefa.nome}, / ID Reward: {tarefa.id_Reward}, / ID Criança: {tarefa.id_Crianca}, / ID pais: {tarefa.id_Pais}, / Status: {status}")
 
         else:
-            print("Não há tarefas registradas.")
+            print("Não há tarefas registradas no momento.")
 
     def buscar_tarefa_por_id(self, id_tarefa):
         for tarefa in self.tarefas:

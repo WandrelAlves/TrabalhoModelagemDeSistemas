@@ -19,7 +19,7 @@ class GerenciadorRecompensas:
             self.recompensas.remove(recompensa)
             print("Recompensa removida com sucesso.")
         else:
-            print("Recompensa não encontrada.")
+            print("Recompensa não encontrada, tente novamente.")
 
     def visualizar_recompensas(self):
         if self.recompensas:
@@ -29,7 +29,7 @@ class GerenciadorRecompensas:
                 print(f"ID: {recompensa.id}, / Nome: {recompensa.nome}")
                 print("")
         else:
-            print("Não há recompensas disponíveis.")
+            print("Não há recompensas disponíveis no momento.")
 
     def buscar_recompensa_por_id(self, id_recompensa):
         for recompensa in self.recompensas:
