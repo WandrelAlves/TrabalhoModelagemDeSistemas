@@ -27,11 +27,10 @@ Para executar os passos abaixo é necessário já ter instalado em sua máquina 
 <br><br>
 
 * Após o termino do download, descompacte o arquivo, abra a pasta no VScode e execute o arquivo Main.py
-<br>
+<br><br><br>
 
-### Autores
-<br>
-Lucas Costa<br>
-Gustavo Nascimento<br>
-Wandrel Alves<br>
-Fábio Stori
+### Desenvolvedores
+* Lucas Costa
+* Gustavo Nascimento
+* Wandrel Alves
+* Fábio Stori
