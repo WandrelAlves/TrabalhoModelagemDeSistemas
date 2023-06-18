@@ -10,7 +10,7 @@ Esse sistema permite a adição de crianças, pais, recompensas e criação de t
 ![Logo do Github](./image/icons8-github-16%20(1).png) Github<br>
 ![Logo do VScode](./image/icons8-visual-studio-code-2019-color-16.png) Visual Studio Code<br>
 ![Logo do Python](./image/icons8-python-color-16.png) Python<br>
-![Logo do draw.io](./image/icons8-connection-16.png)draw.io
+![Logo do draw.io](./image/icons8-connection-16.png) draw.io
 
 ## Onboarding
 Para executar os passos abaixo é necessário já ter instalado em sua máquina o Visual Studio code e a versão mais recente do Python.
